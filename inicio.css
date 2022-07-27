@@ -1,0 +1,223 @@
+body{
+    height: auto;
+    width: auto;
+    background-image: url(../proyect/img/ladrillos1.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: black;
+    color: blanchedalmond;
+    
+}
+
+/* inicio */
+
+section{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    grid-template-areas: "a1 a2"
+                            "a3 a4"
+                            "a5 a6"
+                            "a7 a8"
+                            "a9 a10"
+                            "a11 a12"
+                            "a13 a14"
+                            "a15 a16";
+    
+    
+  
+
+    /*
+    justify-content: space-evenly;
+
+    para espaciar entre cada area*/
+}
+
+/* NOTICIA 1*/
+
+#tit1{
+    grid-area: a1 a2;
+}
+#foto1{
+    
+    width: 250px;
+    height: 90%;
+    grid-area: a3;
+}
+
+#noti1{
+    grid-area: a4;
+}
+
+/* NOTICIA 2*/
+
+#tit2{
+    grid-area: a5 a6;
+}
+#foto2{
+    
+    width: 300px;
+    height: 200px;
+    grid-area: a7;
+    float: left;
+}
+
+#noti2{
+    grid-area: a8;
+}
+
+/* NOTICIA 3 */
+
+#tit3{
+    grid-area: a9 a10;
+}
+#foto3{
+    
+    width: 250px;
+    height: 150px;
+    grid-area: a11;
+}
+
+#noti3{
+    grid-area: a12;
+}
+
+/* NOTICIA 4 */
+
+#tit4{
+    grid-area: a13 a14;
+}
+#foto4{
+    
+    align-items: flex-start;
+    width: 250px;
+    height: 150px;
+    grid-area: a15;
+}
+
+#noti4{
+    grid-area: a16;
+}
+/* NAV */
+
+ul{
+   list-style-type: none;
+   text-align: center;
+   background-color: rgb(255, 0, 0);
+   margin: 0px;
+   opacity: 0.7;
+   font-weight: bold;
+   
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+
+
+li{
+    display: inline-block;
+    color:white;
+    width: 18%;
+    font-style: bold;
+    
+}
+
+
+#banner1{
+    height: 175px;
+    width: 100%;
+    
+}
+
+p{
+    border: 1px dotted;
+    border-radius: 4px;
+    width: 69%;
+    
+}
+
+h1{
+    text-align: right;
+    color: burlywood;
+    opacity: 0.5;
+    font-style: italic;
+    text-align: right;
+}
+
+
+h2{
+    font-style: italic;
+}
+
+
+
+/* COMBATES HISTORICOS */
+
+.comb_his{
+    text-align: center;
+}
+
+.parrafoch{
+    border-style: dashed;
+    text-align: justify;
+    color: coral;
+    
+}
+
+.tituloch{
+    text-decoration: underline;
+    font-style: italic;
+}
+
+/* LEYENDAS */
+
+.tituloly{
+    font-style: italic;
+}
+
+.imgly{
+    float: left;
+}
+
+.parrafoly{
+    overflow: auto;
+    text-align: justify;
+}
+
+/* CONTACTO */
+
+.tituloform{
+    text-align: left;
+}
+
+form{
+    width: 350px;
+    min-height: 700px;
+    margin: 30%;
+    padding: 50px 90px;
+    box-sizing: border-box;
+    margin-top: 70px;
+    border-radius: 7px;
+}
+
+/* PRÓXIMAS PELEAS */
+
+.mespp{ 
+    font-weight: 800;
+    text-decoration: underline;
+    line-height: 1cm;
+}
+
+/* FOOTER */
+
+footer{
+    text-align: center;
+    background-color: rgb(241, 44, 44);
+    padding: 2px;
+    opacity: 0.6;
+    
+}
